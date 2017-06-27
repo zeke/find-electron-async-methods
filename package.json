@@ -8,5 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "electron-api-docs": "^1.6.11"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
