@@ -1,0 +1,12 @@
+{
+  "name": "find-electron-async-methods",
+  "version": "1.0.0",
+  "description": "Gather up all the methods that take a callback so we can promisify them",
+  "main": "index.js",
+  "repository": "https://github.com/zeke/find-electron-async-methods",
+  "author": "zeke",
+  "license": "MIT",
+  "dependencies": {
+    "electron-api-docs": "^1.6.11"
+  }
+}
