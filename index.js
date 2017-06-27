@@ -1,4 +1,11 @@
 const apis = require('electron-api-docs')
+const pkg = require('./package.json')
+
+console.log(`
+# ${pkg.name}
+
+> ${pkg.description}
+`)
 
 apis.forEach(api => {
   const methods = api.methods || []
